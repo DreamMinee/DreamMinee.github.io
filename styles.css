@@ -1,0 +1,54 @@
+body {
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    width: 100%;
+
+}
+h1{
+    color: darkcyan;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+
+}
+p {
+    font-style: italic;
+
+}
+.hobby-description {
+    font-style: italic;
+}
+.job-description {
+    font-style: italic;
+}
+a {
+    text-decoration: none;
+    color: darkblue;
+    display:inline-block;
+    padding: 10px;
+    background-color: navajowhite;
+    width: 200px;
+    border: 2px solid burlywood;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+
+
+}
+a:hover {
+    color: dodgerblue;
+}
+.links {
+    width: 100%;
+}
+.hobby-item {
+    width: 50%;
+
+}
+
+.row {
+    display: flex;
+
+}
