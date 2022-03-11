@@ -4,6 +4,7 @@ body {
     font-size: 15px;
     width: 100%;
 
+
 }
 h1{
     color: darkcyan;
@@ -50,5 +51,43 @@ a:hover {
 
 .row {
     display: flex;
+    background-color: deepskyblue;
+    padding: 0px !important;
+    justify-content: center;
+    align-items: flex-start;
+}
+.row .hobby-description {
+    margin: 10px;
+
+}
+.job-item {
+    background-color: aquamarine;
+    padding: 0px;
+
+}
+.education-item {
+    background-color: lightblue;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+h2 {
+    background-color: teal;
+    border-radius: 10px;
+    padding: 10px;
+    color: lightblue;
+
+}
+h3 {
+    border-radius: 10px;
+    padding: 10px;
+    color: aquamarine;
+    background-color: deepskyblue;
+}
+.row, .job-item {
+    background-color: lightblue;
+    border-radius: 10px;
+    /*padding: 10px;*/
+    margin-bottom: 10px;
 
 }
