@@ -44,10 +44,11 @@
 
 .flex-container {
     display: flex;
-    height: 100vh;
-    /*flex-flow; column wrap;*/
     flex-direction: column;
-    justify-content: start;
+    flex-flow: wrap;
+    gap: 10px;
+
+
 
 }
 .flex-item {
